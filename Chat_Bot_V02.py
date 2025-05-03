@@ -4,13 +4,13 @@ from tkinter import PhotoImage
 import google.generativeai as genai
 
 # ✅ Gemini API Setup
-genai.configure(api_key="AIzaSyAaBsxnsbJkVqpbpMpBAtpMAvHP6BO2G1Y")  # 🔐 Replace with your actual API key
+genai.configure(api_key="AIzaSyAaBsxnsbJkVqpbpMpBAtpMAvHP6BO2G1Y") 
 model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
 chat = model.start_chat()
 
 # ✅ Main window
 window = tk.Tk()
-window.title("🚀 Chat Assistant By Dilanka")
+window.title("🚀 Chat Assistant By Dilanka ")
 window.geometry("700x800")
 window.configure(bg="#0f111a")
 
