@@ -1,1 +1,1 @@
-This is a simple chatbot made using the google gemini api . Then it cab answer the small questions.
+This is a simple chatbot made using the google gemini api . Then it can answer the small questions.
