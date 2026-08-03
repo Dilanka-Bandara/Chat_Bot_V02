@@ -4,7 +4,7 @@ from tkinter import PhotoImage
 import google.generativeai as genai
 
 # ✅ Gemini API Setup
-genai.configure(api_key="AIzaSyAaBsxnsbJkVqpbpMpBAtpMAvHP6BO2G1Y") 
+genai.configure(api_key="My api key") 
 model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
 chat = model.start_chat()
 
